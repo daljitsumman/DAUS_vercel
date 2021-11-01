@@ -38,16 +38,17 @@ export default () => {
 return <Grid 
       h="100vh"
       templateRows="1fr"
-      templateColumns=".5fr 1fr 1fr .5fr"
+      templateColumns=".25fr 1fr .25fr 1fr .25fr"
       gap={0}
       >
           <GridItem/>
   <GridItem>
       <Flex alignItems="center" justifyContent="center" height="100%">
-          <Image src="/Daus_cover_image2.png" height="70vh"/>
+          <Image src="/Daus_cover_image2.png" height="90vh"/>
       </Flex>
 
-  </GridItem>    
+  </GridItem>   
+  <GridItem/> 
   <GridItem>
       <Flex alignItems="center" justifyContent="center" height="100%">
               <Box p="4" padding="4em" borderRadius="3px" backgroundColor="white">
