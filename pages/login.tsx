@@ -15,7 +15,7 @@ import {
     Image
 } from "@chakra-ui/react"
 
-import {useState} from "react"
+import {FormEventHandler, useState} from "react"
 import { useRouter } from 'next/router';
 
 
@@ -59,13 +59,13 @@ return <Grid
                         <Box>
                             <FormControl id="email">
                             <FormLabel>Email address</FormLabel>
-                            <Input type="text" onChangeCapture={(e) => setFormData({...formData, username: e.target.value})} value={formData.username}/>
+                            <Input type="text" onChangeCapture={(e) => setFormData({...formData, username: (e.target as HTMLInputElement).value})} value={formData.username}/>
                             </FormControl>
                         </Box>
                         <Box>
                             <FormControl id="password">
                             <FormLabel>Password</FormLabel>
-                            <Input type="password" onChangeCapture={(e) => setFormData({...formData, password: e.target.value})} />
+                            <Input type="password" onChangeCapture={(e) => setFormData({...formData, password: (e.target as HTMLInputElement).value})} />
                             </FormControl>
                         </Box>
                         <Box>
