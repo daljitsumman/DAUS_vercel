@@ -18,21 +18,18 @@ import {
 import {FormEventHandler, useState} from "react"
 import { useRouter } from 'next/router';
 
-
-
-
-
 export default () => {
-  const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState({
       username: "",
       password: ""
     });
+
     const router = useRouter();
 
     function onClicked(){
       if(formData.username ==="admin" && formData.password==="admin"){
       router.push("/login")
-      }
+    }
   }
 
 return <Grid 
@@ -46,7 +43,6 @@ return <Grid
       <Flex alignItems="center" justifyContent="center" height="100%">
           <Image src="/Daus_cover_image2.png" height="90vh"/>
       </Flex>
-
   </GridItem>   
   <GridItem/> 
   <GridItem>
@@ -73,7 +69,6 @@ return <Grid
                       <Button onClick={onClicked}>Login</Button>
                       </Box>
                   </VStack>
- 
                   </form>
               </Box>
       </Flex>
