@@ -20,7 +20,6 @@ import {
   OrderedList,
   UnorderedList,
   } from "@chakra-ui/react"
-  import {MdSettings} from 'react-icons';
 
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
