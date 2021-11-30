@@ -28,10 +28,10 @@ export default (props) =>{
     </Link>
     <Box marginRight='100px'>
     <Link href="/dashboard">
-        <Button colorScheme='teal' variant={asPath == '/patientcare' ? "solid" : ""}>Dashboard</Button>
+        <Button colorScheme='teal' variant={asPath == '/dashboard' ? "solid" : ""}>Dashboard</Button>
     </Link>
     <Link href="/patientcare">
-        <Button colorScheme='teal' variant={asPath == '/patientcare' ? "solid" : ""}>Patient care</Button>
+        <Button colorScheme='teal' variant={asPath == '/patientcare' ? "solid" : ""}>Patient Care</Button>
     </Link>
     <Link href="/staff">
         <Button variant={asPath == '/staff' ? "solid" : ""} colorScheme='teal'>Staff</Button>
