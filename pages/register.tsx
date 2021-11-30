@@ -68,13 +68,13 @@ import {
                         (function(){
                           if(getRole == "Doctor"){
                             return [
-                              <Box>
+                              <Box key="1">
                                  <FormControl id="email">
                                  <FormLabel>GMC Number</FormLabel>
                                  <Input type="text" />
                                  </FormControl>
                               </Box>,
-                              <Box>
+                              <Box key="2">
                                 <FormControl id="email">
                                 <FormLabel>Another Doctor field</FormLabel>
                                 <Input type="text" />
