@@ -43,7 +43,7 @@ export default function Header(props){
         <Button colorScheme='teal' variant={asPath == '/reporting' ? "solid" : ""}>Reporting</Button>
     </Link>
     <Link href="/governance">
-        <Button colorScheme='teal' variant={asPath == '/Governance' ? "solid" : ""}>Governance</Button>
+        <Button colorScheme='teal' variant={asPath == '/governance' ? "solid" : ""}>Governance</Button>
     </Link>
 
     </Box>

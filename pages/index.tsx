@@ -28,7 +28,7 @@ export default function Index(){
 
     function onClicked(){
       if(formData.username ==="admin" && formData.password==="admin"){
-      router.push("/login")
+      router.push("/dashboard")
     }
   }
 
