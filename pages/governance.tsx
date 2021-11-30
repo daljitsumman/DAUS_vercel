@@ -25,7 +25,7 @@ import {
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
 
-  export default function governance(){
+  export default function Governance(){
 
     const [getRole, setRole] = useState("");
 

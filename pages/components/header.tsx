@@ -19,7 +19,7 @@ import {
   import { useRouter } from 'next/router';
 
 
-export default (props) =>{
+export default function Header(props){
     const { asPath, pathname } = useRouter();
 
     return <Flex justifyContent="space-between" flexDirection="row" alignItems="center">

@@ -18,7 +18,7 @@ import {
 import {FormEventHandler, useState} from "react"
 import { useRouter } from 'next/router';
 
-export default () => {
+export default function Index(){
     const [formData, setFormData] = useState({
       username: "",
       password: ""

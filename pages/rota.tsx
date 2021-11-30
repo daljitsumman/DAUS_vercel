@@ -21,7 +21,7 @@ import {
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
 
-  export default function rota(){
+  export default function Rota(){
 
     const [getRole, setRole] = useState("");
 

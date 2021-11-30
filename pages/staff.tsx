@@ -25,7 +25,7 @@ import {
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
 
-  export default function staff() {
+  export default function Staff() {
 
     const [getRole, setRole] = useState("");
 

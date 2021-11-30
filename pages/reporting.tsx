@@ -24,7 +24,7 @@ import {
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
 
-  export default function reporting(){
+  export default function Reporting(){
 
     const [getRole, setRole] = useState("");
 
