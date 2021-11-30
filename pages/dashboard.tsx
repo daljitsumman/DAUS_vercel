@@ -26,7 +26,7 @@ import {
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
 
-  export default () => {
+  export default function dashboard(){
 
     const [getRole, setRole] = useState("");
 

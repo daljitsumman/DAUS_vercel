@@ -21,7 +21,7 @@ import {
   import Header from './components/header'
   import {FormEventHandler, useState} from "react"
 
-  export default () => {
+  export default function patientcare(){
 
     const [getRole, setRole] = useState("");
 
