@@ -79,33 +79,26 @@ import {
           <GridItem margin="30px">
           <h4 style={{marginBottom:'30px', fontSize:'20px'}}>Pro-active Care</h4>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
-          No of Patients
-nnot acheived LTC 
-Targets
+          No of Patients not acheived LTC Targets
           </Button>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
-          Live Patient 
-Feedback
+          Live Patient Feedback
           </Button>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
-          No of Care pLans 
-Outstanding
+          No of Care pLans Outstanding
           </Button>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
           Referrals
--Urgent/Routine
--"2ww 
-
+          -Urgent/Routine
+          -2ww 
 
 
           </Button>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
-          Care Home Ward
-Outstanding
+          Care Home Ward Outstanding
           </Button>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
-          Child Imms
-Adults imma
+          Child Imms Adults imma
           </Button>
           <Button colorScheme='teal' size='lg' className={'marginButton'}>
           Cervical Smear
