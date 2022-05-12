@@ -151,7 +151,7 @@ export default function Home() {
       }
 
     </Col>
-    <Col lg="9">Practise > -----</Col>
+    <Col lg="9">Practise &gt; -----</Col>
   </Row>
 </Container>
 
