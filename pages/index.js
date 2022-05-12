@@ -16,6 +16,7 @@ import practices from '../data/practices'
 
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 export default function Home() {
   const [email,setEmail] = useState("");
   const [password,setPassword] = useState("")
@@ -111,7 +112,7 @@ export default function Home() {
 
   <Row style={{"margin-top":"30px"}}>
     <Col lg="3" >
-      <label id="aria-label" htmlFor="aria-example-input">
+      <label id="aria-label" htmlFor="aria-example-input" className='ptb-20'>
         Select a borough
       </label>
       <Select 
@@ -121,7 +122,7 @@ export default function Home() {
     
       { selectedBorough != "" && 
         <Fragment>
-          <label id="aria-label" htmlFor="aria-example-input">
+          <label id="aria-label" htmlFor="aria-example-input" className='ptb-20'>
             Select a PCN
           </label>
           <Select 
@@ -138,7 +139,7 @@ export default function Home() {
       {
         selectedDropdownPcnValue != "" && 
         <Fragment>
-          <label id="aria-label" htmlFor="aria-example-input">
+          <label id="aria-label" htmlFor="aria-example-input" className='ptb-20'>
             Select a Practice
           </label>
           <Select 
