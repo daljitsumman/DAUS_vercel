@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -6,10 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.highlight{
-  background-color: cadetblue;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.marginButton{
-  margin:20px
-}
+* {
+  box-sizing: border-box;
+} */
