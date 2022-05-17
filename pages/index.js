@@ -120,7 +120,12 @@ export default function Home() {
               </Fragment>
             }
           </div>
-          <Calendar onChange={onChange} value={value} />
+
+          {
+            selectedDropdownPracticeValue &&
+            <Calendar onChange={onChange} value={value} />
+          }
+
         </Col>
         <Col lg="9">
           <RightPane

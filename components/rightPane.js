@@ -28,7 +28,7 @@ export default function RightPane({ borough, pcn, practise }) {
 
 
 
-            <div style={{ "overflow": "auto", "width": "100%", "height": "300px" }}>
+            <div style={{ "overflow": "auto", "width": "50%", "height": "300px" }}>
                 <img width="1000px" src={renderImage(practise)} />
             </div>
 
