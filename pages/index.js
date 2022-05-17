@@ -128,6 +128,7 @@ export default function Home() {
 
         </Col>
         <Col lg="9">
+
           <RightPane
             borough={selectedBorough}
             pcn={selectedDropdownPcnValue.value}
