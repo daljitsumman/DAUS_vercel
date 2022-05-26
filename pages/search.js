@@ -118,6 +118,42 @@ const documents = [
 			},
 		],
 	},
+	{
+		id: 7,
+		prac: 'Oakwood Medical Centre',
+		times: [
+			{
+				start: '9:00',
+				end: '10:00',
+				date: '29th January 2022',
+			},
+		],
+		category: 'fiction',
+	},
+	{
+		id: 8,
+		prac: 'Cockfosters Medical Centre',
+		times: [
+			{
+				start: '9:00',
+				end: '10:00',
+				date: '18th January 2020',
+			},
+		],
+		category: 'fiction',
+	},
+	{
+		id: 9,
+		prac: 'Gower Street Practice',
+		times: [
+			{
+				start: '9:00',
+				end: '10:00',
+				date: '29th January 2020',
+			},
+		],
+		category: 'fiction',
+	},
 ];
 
 let miniSearch = new MiniSearch({
