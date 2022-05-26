@@ -81,9 +81,9 @@ const documents = [
 				date: '22th March 2022',
 			},
 			{
-				start: '20:00',
-				end: '21:00',
-				date: '23th March 2022',
+				start: '19:00',
+				end: '23:00',
+				date: '23rd March 2022',
 			},
 		],
 	},
@@ -114,7 +114,7 @@ const documents = [
 			{
 				start: '20:00',
 				end: '21:00',
-				date: '23th March 2022',
+				date: '23rd March 2022',
 			},
 		],
 	},
