@@ -1,0 +1,9 @@
+{
+  "editor.default_syntax" : "javascript",
+  "index.ignored_file_patterns" : [
+    "node_modules\/",
+    "package-lock.json"
+  ],
+  "index.use_scm_ignored_files" : true,
+  "workspace.color" : 3
+}

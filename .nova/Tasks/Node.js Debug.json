@@ -1,0 +1,21 @@
+{
+  "actions" : {
+    "run" : {
+      "postActions" : [
+        {
+          "script" : "yarn dev",
+          "type" : "runScript"
+        }
+      ]
+    }
+  },
+  "buildBeforeRunning" : true,
+  "extension" : {
+    "identifier" : "panic.JavaScript",
+    "name" : "JavaScript"
+  },
+  "extensionTemplate" : "nodeDebug",
+  "extensionValues" : {
+    "request" : "launch"
+  }
+}

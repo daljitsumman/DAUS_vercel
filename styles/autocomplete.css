@@ -1,0 +1,74 @@
+.inputBox {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 500px;
+  display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border: 1px solid #ccc;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-left: 0;
+  
+  z-index:9999;
+  width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  background-color:white;
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #eee;
+  /* color: rgb(255, 255, 255); */
+  cursor: pointer;
+  
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #ddd;
+}
+
+.ac_container{
+	/* height: 100px; */
+}
+
+.autocompleteTitle{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+	color:gray;
+	
+}
+.autocompleteValue{
+	width: 350px;
+	margin-left:10px;
+	display: inline-block;
+}
+
+.padHeight{
+	margin-top: 20px;
+}
+
+.titleStyle{
+	margin-top:20px;
+	color:gray;
+	text-align:center;
+}
